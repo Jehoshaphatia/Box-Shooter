@@ -9,6 +9,7 @@ public class NextLevel : MonoBehaviour {
 		// only do stuff if hit by a projectile
 		if (newCollision.gameObject.tag == "Projectile") {
 			// call the NextLevel function in the game manager
+            Debug.Log("jkajskasj");
 			GameManager.gm.NextLevel();
 		}
 	}
